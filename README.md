@@ -2,12 +2,12 @@
 
 Aqui esta um codigo aberto referente a aulas de POO e ESTRUTURA DE DADOS, todo legendado, linha por linha
 
-Nele estou utilizando LIST E ARRAYLIST e fundamento basico de POO com metodos get and set dentro de uma classe Cliente que esta extends de Pessoa
+Nele estou utilizando LIST E ARRAYLIST e fundamentos de POO com metodos get and set dentro de uma classe Cliente que esta extends de Pessoa
 
 # List< Cliente > lista_cliente = new ArrayList();
 
 
-# EXISTEM DUAS FORMAS DE VOCÊ MANIPULAR A LISTA, SENDO ELES 2 TIPOS DE LOOP
+# EXISTEM DUAS FORMAS DE VOCÊ MANIPULAR A LISTA, SENDO ELES 2 TIPOS DE LOOP - SEGUE >EXEMPLOS<
 
 # MODELO 1 DE LOOP BASICO
 
