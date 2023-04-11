@@ -7,9 +7,9 @@ Nele estou utilizando LIST E ARRAYLIST e fundamento basico de POO com metodos ge
 List<Cliente> lista_cliente = new ArrayList();
 
 
-#EXISTEM DUAS FORMAS DE VOCÊ MANIPULAR A LISTA, SENDO ELES 2 TIPOS DE LOOP
+# EXISTEM DUAS FORMAS DE VOCÊ MANIPULAR A LISTA, SENDO ELES 2 TIPOS DE LOOP
 
-#MODELO 1 DE LOOP BASICO
+# MODELO 1 DE LOOP BASICO
 
 
       for (int i = 0; i < lista_cliente.size(); i++) {
