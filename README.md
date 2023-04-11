@@ -50,5 +50,3 @@ Esse codigo é aberto para vocês copiarem, editarem e fazerem o que quiser com 
 
 Qualquer dúvida, é so chamar no meu privado.
 
-
-
