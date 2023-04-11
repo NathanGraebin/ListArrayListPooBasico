@@ -29,7 +29,6 @@ Nele estou utilizando LIST E ARRAYLIST e fundamento basico de POO com metodos ge
       for (Cliente i : lista_cliente) {
       
       i.cadastrarCliente();
-      
       i.getId();
       i.setId(id);
       break;
