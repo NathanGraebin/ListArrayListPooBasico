@@ -12,10 +12,10 @@ List<Cliente> lista_cliente = new ArrayList();
 #MODELO 1 DE LOOP BASICO
 
 
-                              for (int i = 0; i < lista_cliente.size(); i++) {
+                        for (int i = 0; i < lista_cliente.size(); i++) {
                         
                         lista_cliente.get(i).cadastrarCliente();
-                    } 
+                        } 
 
 
 
