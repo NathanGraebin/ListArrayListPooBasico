@@ -49,6 +49,10 @@ public class Cliente extends Pessoa {
     }
 
     public void buscar() {
+        //toda vez que ele encontrar o ID pesquisado
+        //vai mostar os dados daquela posição do loop
+        
+        
         System.out.println("====================");
         System.out.println("ID " + getIdCliente());
         System.out.println("NOME " + getNome());
@@ -58,8 +62,10 @@ public class Cliente extends Pessoa {
     }
 
     public void mostrarTodos() {
+        //toda vez que rodar o loop na classe principal, ele vai mostar os seguintes dados
+        
         System.out.println("====================");
-        System.out.println("ID " + idCliente);
+        System.out.println("ID " + getIdCliente());
         System.out.println("NOME " + getNome());
         System.out.println("TELEFONE " + getTelefone());
     }
