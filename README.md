@@ -2,7 +2,7 @@
 
 Aqui esta um codigo aberto referente a aulas de POO e ESTRUTURA DE DADOS,
 
-Nele estou utilizando LIST E ARRAYLIST e fundamento basico de POO com metodos get and set
+Nele estou utilizando LIST E ARRAYLIST e fundamento basico de POO com metodos get and set dentro de uma classe Cliente que esta extends de Pessoa
 
 # List< Cliente > lista_cliente = new ArrayList();
 
