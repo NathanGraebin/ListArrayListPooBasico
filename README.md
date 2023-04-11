@@ -4,7 +4,7 @@ Aqui esta um codigo aberto referente a aulas de POO e ESTRUTURA DE DADOS,
 
 Nele estou utilizando LIST E ARRAYLIST e fundamento basico de POO com metodos get and set
 
-# List<Cliente> lista_cliente = new ArrayList();
+# List< Cliente > lista_cliente = new ArrayList();
 
 
 # EXISTEM DUAS FORMAS DE VOCÊ MANIPULAR A LISTA, SENDO ELES 2 TIPOS DE LOOP
