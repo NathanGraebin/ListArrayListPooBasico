@@ -16,7 +16,21 @@ List<Cliente> lista_cliente = new ArrayList();
                         
       lista_cliente.get(i).cadastrarCliente();
       } 
+                                               
+# MODELO 2 DE LOOP - FOR EACH
+                                               
+                                               
+      for (Cliente i : lista_cliente) {
 
+      if (i.getIdCliente() == 0) {
+      System.out.println("LIVRE PARA CADASTRO");
+
+      i.cadastrarCliente();
+      break;
+
+                        }                                         
+                                               
+                                               
 
 
 Ainda não esta legendado
