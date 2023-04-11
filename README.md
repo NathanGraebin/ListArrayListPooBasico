@@ -1,6 +1,6 @@
 # BASICO List, ArrayList em Poo
 
-Aqui esta um codigo aberto referente a aulas de POO e ESTRUTURA DE DADOS,
+Aqui esta um codigo aberto referente a aulas de POO e ESTRUTURA DE DADOS, todo legendado, linha por linha
 
 Nele estou utilizando LIST E ARRAYLIST e fundamento basico de POO com metodos get and set dentro de uma classe Cliente que esta extends de Pessoa
 
