@@ -22,6 +22,7 @@ public class Menu {
 
         int opcaoMenu = -1;
         // enquanto a opçãaoMenu for DIFERENTE ( 1,2,3,4,5,...) de 0, FAÇA
+        // quando for 0 o programa finalizara
         while (opcaoMenu != 0) {//FAÇA
                                                                //deixei a visualização do tamanho da lista
                                                                //na parte superior do menu, afim de poder controlar
@@ -36,9 +37,9 @@ public class Menu {
             
             //apos imprimir o menu, devemos escolher uma opção nele
             
-            
+            //então vamos solicitar a leitura da opção
             int opcao = Ler.nextInt();
-          //ESCOLHA uma OPÇÃO 
+          //ESCOLHA  OPÇÃO 
             switch (opcao) {
                 
                 
@@ -50,17 +51,32 @@ public class Menu {
                     
                     System.out.println("== CADASTRAR ==");
                     
-                    // toda vez que escolhermos a opção cadastrar, vamos iniciar um novo local de cadastro na lista
+                    // toda vez que escolhermos a opção cadastrar, vamos iniciar um novo local de cadastro na lista_cliente
                     // adicionaremos na lista_cliente um novo Cliente ( que é uma classe )
                     // Cliente vai receber todos os dados nulos, em relação aos atributos indicadados
                     //no metodo construtor da classe Cliente, seguindo a ordem ( verificar classe Cliente )
                     lista_cliente.add(new Cliente(0, "", 0));
+                    
+                    //Usaremos o loop For Each para olhar para os dados da lista_cliente
                     for (Cliente i : lista_cliente) {
-
+                    
+                        
+                        
+                        //fazemos uma validação de garantir que estamos lidando com o cadastro certo
+                        
+                        //SE eu COMEÇAR A PROCURAR na lista de cliente . eu pegar o ID e o ID e for IGUAL == a 0
                         if (i.getIdCliente() == 0) {
-                            System.out.println("LIVRE PARA CADASTRO");
-
+                            
+                            //faremos um cadastro nessa posição aonde o Cliente esta com valores nulos que criamos
+                            // ao apertar para cadastrar
+                            
+                            
+                           //na lista_cliente . iniciaremos o metododo cadastrarCliente ( verificar na classe Cliente )
                             i.cadastrarCliente();
+                            
+                            //em teoria, quando for cadastrar o cliente, é para cadastrar 1 cliente apenas
+                            //entamos usamos um break; apos terminar o cadastro para finalizar o loop
+                            // e voltar para o menu principal
                             break;
 
                         }
@@ -68,11 +84,6 @@ public class Menu {
                     }
 
                 case 2:
-
-                    for (int i = 0; i < lista_cliente.size(); i++) {
-
-                        lista_cliente.get(i).cadastrarCliente();
-                    }
 
                     for (Cliente i : lista_cliente) {
                         i.mostrarTodos();
@@ -100,6 +111,16 @@ public class Menu {
                     break;
 
                 case 0:
+                    // comentamos la em cima que, quando a opçãoMenu for DIFERENTE de 0, ele vai fazer o menu
+                    //então quando a opçãoMenu for 0, ene vai finalizar
+                   
+                    // logo quando apertar 0 no menu, ele vai vir para esse CASO 0
+                    //vai falar que a opçãoMenu é 0 afim de finalizar ele
+                    // e um break; 
+  
+                    
+           
+                    
                     opcaoMenu = 0;
                     break;
             }

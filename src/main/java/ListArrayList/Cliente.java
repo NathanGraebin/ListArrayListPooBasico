@@ -13,13 +13,14 @@ import java.util.Scanner;
  * @author Nathan Graebin
  */
 public class Cliente extends Pessoa {
-
+    
     List<Cliente> lista_cliente = new ArrayList();
     Scanner Ler = new Scanner(System.in);
 
     //List
     private int idCliente;
 
+    //CONSTRUTOR            SEQUENCIA A SER SEGUIDA             //
     public Cliente(int telefone, String nome, int idCliente) {
         super(telefone, nome);
         this.idCliente = idCliente;
@@ -31,16 +32,12 @@ public class Cliente extends Pessoa {
 
     }
 
-    public interface Imprimivel {
-
-        public void getIdCliente();
-
-    }
-
     public void setIdCliente(int idCliente) {
         this.idCliente = idCliente;
     }
-
+    
+    
+    //METODOD cadastrarCliente    //
     public void cadastrarCliente() {
         System.out.println("INFOME O NOME");
         setNome(Ler.nextLine());
