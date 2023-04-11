@@ -1,16 +1,16 @@
 # BASICO List, ArrayList em Poo
 
-ps: 
+ps: isso aqui é apenas um estudo, qualquer correção ou outra forma de fazer é bem vinda 
 
-Aqui esta um codigo aberto referente a aulas de POO e ESTRUTURA DE DADOS, todo legendado, linha por linha
+Aqui esta um codigo aberto de estudos que fiz em relação as aulas de POO e ESTRUTURA DE DADOS, todo legendado, linha por linha...
 
 
-Nele estou utilizando LIST E ARRAYLIST e fundamentos de POO com metodos get and set dentro de uma classe Cliente que esta extends de Pessoa
 
+Nele estou utilizando LIST E ARRAYLIST e fundamentos de POO com metodos get and set dentro de uma classe Cliente que esta extends de Pessoas
 # List< Cliente > lista_cliente = new ArrayList();
 
 
-# EXISTEM DUAS FORMAS DE VOCÊ MANIPULAR A LISTA, SENDO ELES 2 TIPOS DE LOOP - SEGUE >EXEMPLOS<
+# EXISTEM DUAS FORMAS DE VOCÊ MANIPULAR A LISTA, SENDO ELES 2 TIPOS DE LOOP - > SEGUE EXEMPLOS <
 
 # MODELO 1 DE LOOP BASICO
 
