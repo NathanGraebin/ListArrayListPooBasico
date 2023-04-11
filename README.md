@@ -38,7 +38,7 @@ Nele estou utilizando LIST E ARRAYLIST e fundamento basico de POO com metodos ge
 
 Esse codigo é aberto para vocês copiarem, editarem e fazerem o que quiser com ele.
 
-Qualquer dúvida, vocês podem estar me chamando no meu privado.
+Qualquer dúvida, é so chamar no meu privado.
 
 
 
